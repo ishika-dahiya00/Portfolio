@@ -86,7 +86,7 @@
  /*========== Button Dark/Light ==========*/
  .nav__btns {
    display: flex;
-   padding: 12px;
+   padding: 12px 25px;
    align-items: center;
  }
 
@@ -177,7 +177,7 @@
  .header {
    width: 100%;
    position: fixed;
-   bottom: 0;
+   top: 0;
    left: 0;
    z-index: var(--z-fixed);
    background-color: var(--body-color);
@@ -197,6 +197,7 @@
  .nav__toggle {
    color: var(--title-color);
    font-weight: var(--font-medium);
+   margin-left: 1.5rem;
  }
 
  .nav__logo:hover {
